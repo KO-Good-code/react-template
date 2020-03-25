@@ -1,6 +1,6 @@
 {
-  "name": "react-template",
-  "version": "1.0.2",
+  "name": "{{projectName}}",
+  "version": "1.0.0",
   "author": "neigri",
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.config.js",

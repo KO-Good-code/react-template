@@ -15,7 +15,7 @@
     {{/if_eq}}
   },
   "devDependencies": {
-    "@crd/cli-service": "^1.0.0",
+    "@neigri/cli-service": "^1.0.0",
     {{#if_eq lang "TypeScript" }}
     "typescript": "^3.8.3",
     "ts-loader": "^6.2.2",

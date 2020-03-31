@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import ReactDom from 'react-dom';
-import store from '@/store';
 import Dom from '@/components/dom';
 
 

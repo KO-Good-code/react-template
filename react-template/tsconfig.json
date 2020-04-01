@@ -11,6 +11,7 @@
       "experimentalDecorators": true,
       "noImplicitAny": false,
       "allowSyntheticDefaultImports": true,
+      "jsx": "react"
     },
     "include": [
       "./src/*"

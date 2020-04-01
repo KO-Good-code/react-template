@@ -9,7 +9,7 @@
   "dependencies": {
     {{#if_eq lang "TypeScript" }}
     "@types/react": "^16.9.29",
-    "@types/react-dom": "^16.9.29",
+    "@types/react-dom": "^16.9.5",
     {{/if_eq}}
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
@@ -19,7 +19,7 @@
     "typescript": "^3.8.3",
     "ts-loader": "^6.2.2",
     {{/if_eq}}
-    {{#if_eq style "sass" }}
+    {{#if_eq style "scss" }}
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
     {{/if_eq}}
@@ -29,7 +29,7 @@
     {{/if_eq}}
     "@neigri/cli-service": "^1.0.0",
     "@babel/preset-env": "^7.9.0",
-    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-react": "^7.9.4"
   },
   "browserslist": {
     "production": [

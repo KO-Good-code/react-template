@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "author": "{{author}}",
   "scripts": {
-    "start": "crd-cli-server server",
-    "build": "crd-cli-server build"
+    "start": "ng-cli-server server",
+    "build": "ng-cli-server build"
   },
   "dependencies": {
     {{#if_eq lang "TypeScript" }}
